@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration</title>
+</head>
+<body>
+    <h1>Employee Registration</h1>
+    <form action="submit_registration.php" method="post">
+        <label for="salutation">Salutation:</label><br>
+        <input type="radio" id="salutation" name="salutation" value="Mr." >Mr.<br>
+        <input type="radio" id="salutation" name="salutation" value="Mrs.">Mrs.<br>
+        <input type="radio" id="salutation" name="salutation" value="Ms.">Ms.<br>
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+        <label for="mail_address1">Mail Address 1:</label><br>
+        <input type="text" id="mail_address1" name="mail_address1"><br>
+        <label for="mail_address2">Mail Address 2:</label><br>
+        <input type="text" id="mail_address2" name="mail_address2"><br>
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city"><br>
+        <label for="state">State:</label><br>
+        <select id="state" name="state">
+            <option value="Gujarat">Gujarat</option>
+            <option value="Maharastra">Maharastra</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Delhi">Delhi</option>
+        </select><br>
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="mobile">Mobile:</label><br>
+        <input type="tel" id="mobile" name="mobile" placeholder="+91"><br>
+        <label for="languages">Languages Known:</label><br>
+        <input type="checkbox" id="languages" name="languages" value="Gujarati" >Gujarati<br>
+        <input type="checkbox" id="languages" name="languages" value="Hindi" >Hindi<br>
+        <input type="checkbox" id="languages" name="languages" value="English" >English<br>
+        <input type="checkbox" id="languages" name="languages" value="Marathi">Marathi<br>
+        <label for="additional_information">Additional Information:</label><br>
+        <textarea id="additional_information" name="additional_information" rows="3" cols="20" placeholder="Optional" wrap></textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

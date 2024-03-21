@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admission Form</title>
+</head>
+<body>
+
+<table>
+<h2>Admission Form</h2>
+<form>
+    <label for="first_name">First Name:</label><br>
+    <input type="text" id="first_name" name="first_name" required><br>
+
+    <label for="last_name">Last Name:</label><br>
+    <input type="text" id="last_name" name="last_name" required><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="50" required></textarea><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="mobile_no">Mobile No:</label><br>
+    <input type="number" id="mobile_no" name="mobile_no" required><br>
+
+    <label for="date_of_birth">Date of Birth:</label><br>
+    <input type="date" id="date_of_birth" name="date_of_birth" required><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+
+    <label for="academic_record">Academic Record:</label><br>
+    <textarea id="academic_record" name="academic_record" rows="4" cols="50" required></textarea><br>
+
+    <label for="program">Class:</label><br>
+    <input type="radio" id="program1" name="program" value="FYMSC.Ca" required>FYMSC.Ca<br>
+    <input type="radio" id="program2" name="program" value="SYMSC.Ca">SYMSC.Ca<br>
+
+    <label for="subject">Subject:</label><br>
+    <input type="checkbox" id="subject1" name="subject1" value="Web Technology">Web Technology<br>
+    <input type="checkbox" id="subject2" name="subject2" value="Java">Java<br>
+    <input type="checkbox" id="subject3" name="subject3" value="Computer Networks">Computer Networks<br>
+    <input type="checkbox" id="subject4" name="subject4" value="Data Science">Data Science<br>
+
+    <input type="submit" value="Submit">
+</form>
+</table>
+</body>
+</html>
